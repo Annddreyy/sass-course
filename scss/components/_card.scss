@@ -1,14 +1,17 @@
 @use './variables' as *; 
+@use 'sass:math';
 
 .card {
     display: block;
     padding: $base-padding;
     border: $base-border-thickness solid #ccc;
     box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius, 4);
+    width: 400px;
 
     .card-title {
-        color: red;
-        font-size: $base-font-size;
+        color: $primary;
+        font-size: $font-size-lg;
         padding-bottom: $base-padding;
         font-weight: bold;
     }
@@ -21,3 +24,5 @@
         }
     }
 }
+
+@debug math.div(10, 3);
