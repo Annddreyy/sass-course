@@ -11,4 +11,7 @@ function watchTask() {
     watch(['index.scss'], buildStyles)
 }
 
-exports.default = series(buildStyles, watchTask);
+exports.default = series(buildStyles, () => {
+    watchTask();
+    return new Promise(resolve => setTimeout(resolve, 1000));
+});
