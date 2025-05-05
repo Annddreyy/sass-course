@@ -2924,7 +2924,43 @@ a {
   flex-flow: row wrap;
 }
 
-@media (max-width: 320px) {
+.gap-0 {
+  gap: 0;
+}
+
+.gap-1 {
+  gap: 10px;
+}
+
+.gap-2 {
+  gap: 20px;
+}
+
+.gap-3 {
+  gap: 30px;
+}
+
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+@media (min-width: 320px) {
   .col-1-xs {
     box-sizing: border-box;
     flex-grow: 0;
@@ -2986,7 +3022,7 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 720px) {
+@media (min-width: 720px) {
   .col-1-sm {
     box-sizing: border-box;
     flex-grow: 0;
@@ -3048,7 +3084,7 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 960px) {
+@media (min-width: 960px) {
   .col-1-md {
     box-sizing: border-box;
     flex-grow: 0;
@@ -3110,7 +3146,7 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .col-1-lg {
     box-sizing: border-box;
     flex-grow: 0;
@@ -3172,7 +3208,7 @@ a {
     width: 100%;
   }
 }
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .col-1-xl {
     box-sizing: border-box;
     flex-grow: 0;
