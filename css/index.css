@@ -2608,7 +2608,7 @@ a {
   background-color: #326dee;
 }
 .btn-primary:hover {
-  background-color: 56.4705882353%;
+  background-color: rgb(160.8108108108, 187.9189189189, 247.1891891892);
 }
 
 .btn-outlined-primary {
@@ -2625,6 +2625,21 @@ a {
   background-color: #326dee;
 }
 
+.btn-complement-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #326dee;
+  color: rgb(247.1891891892, 220.0810810811, 160.8108108108);
+}
+.btn-complement-primary:hover {
+  color: #326dee;
+  background-color: rgb(247.1891891892, 220.0810810811, 160.8108108108);
+}
+
 .btn-secondary {
   text-decoration: none;
   cursor: pointer;
@@ -2635,7 +2650,7 @@ a {
   background-color: #1ac888;
 }
 .btn-secondary:hover {
-  background-color: 44.3137254902%;
+  background-color: rgb(164.7345132743, 243.2654867257, 214.3805309735);
 }
 
 .btn-outlined-secondary {
@@ -2652,6 +2667,21 @@ a {
   background-color: #1ac888;
 }
 
+.btn-complement-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1ac888;
+  color: rgb(243.2654867257, 164.7345132743, 193.6194690265);
+}
+.btn-complement-secondary:hover {
+  color: #1ac888;
+  background-color: rgb(243.2654867257, 164.7345132743, 193.6194690265);
+}
+
 .btn-error {
   text-decoration: none;
   cursor: pointer;
@@ -2662,7 +2692,7 @@ a {
   background-color: #d32752;
 }
 .btn-error:hover {
-  background-color: 49.0196078431%;
+  background-color: rgb(239.088, 168.912, 186.456);
 }
 
 .btn-outlined-error {
@@ -2679,6 +2709,21 @@ a {
   background-color: #d32752;
 }
 
+.btn-complement-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #d32752;
+  color: rgb(168.912, 239.088, 221.544);
+}
+.btn-complement-error:hover {
+  color: #d32752;
+  background-color: rgb(168.912, 239.088, 221.544);
+}
+
 .btn-info {
   text-decoration: none;
   cursor: pointer;
@@ -2689,7 +2734,7 @@ a {
   background-color: #f6c31c;
 }
 .btn-info:hover {
-  background-color: 53.7254901961%;
+  background-color: rgb(251.1101694915, 229.0677966102, 156.8898305085);
 }
 
 .btn-outlined-info {
@@ -2706,6 +2751,21 @@ a {
   background-color: #f6c31c;
 }
 
+.btn-complement-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #f6c31c;
+  color: rgb(156.8898305085, 178.9322033898, 251.1101694915);
+}
+.btn-complement-info:hover {
+  color: #f6c31c;
+  background-color: rgb(156.8898305085, 178.9322033898, 251.1101694915);
+}
+
 .btn-blue {
   text-decoration: none;
   cursor: pointer;
@@ -2716,7 +2776,7 @@ a {
   background-color: #1919e6;
 }
 .btn-blue:hover {
-  background-color: 50%;
+  background-color: #a3a3f5;
 }
 
 .btn-outlined-blue {
@@ -2733,6 +2793,21 @@ a {
   background-color: #1919e6;
 }
 
+.btn-complement-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #1919e6;
+  color: #f5f5a3;
+}
+.btn-complement-blue:hover {
+  color: #1919e6;
+  background-color: #f5f5a3;
+}
+
 .btn-red {
   text-decoration: none;
   cursor: pointer;
@@ -2743,7 +2818,7 @@ a {
   background-color: #e61919;
 }
 .btn-red:hover {
-  background-color: 50%;
+  background-color: #f5a3a3;
 }
 
 .btn-outlined-red {
@@ -2760,6 +2835,21 @@ a {
   background-color: #e61919;
 }
 
+.btn-complement-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e61919;
+  color: #a3f5f5;
+}
+.btn-complement-red:hover {
+  color: #e61919;
+  background-color: #a3f5f5;
+}
+
 .btn-yellow {
   text-decoration: none;
   cursor: pointer;
@@ -2770,7 +2860,7 @@ a {
   background-color: #e6e619;
 }
 .btn-yellow:hover {
-  background-color: 50%;
+  background-color: #f5f5a3;
 }
 
 .btn-outlined-yellow {
@@ -2787,6 +2877,21 @@ a {
   background-color: #e6e619;
 }
 
+.btn-complement-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e6e619;
+  color: #a3a3f5;
+}
+.btn-complement-yellow:hover {
+  color: #e6e619;
+  background-color: #a3a3f5;
+}
+
 .btn-green {
   text-decoration: none;
   cursor: pointer;
@@ -2797,7 +2902,7 @@ a {
   background-color: #19e635;
 }
 .btn-green:hover {
-  background-color: 50%;
+  background-color: rgb(163, 245, 174.2);
 }
 
 .btn-outlined-green {
@@ -2814,6 +2919,21 @@ a {
   background-color: #19e635;
 }
 
+.btn-complement-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #19e635;
+  color: rgb(245, 163, 233.8);
+}
+.btn-complement-green:hover {
+  color: #19e635;
+  background-color: rgb(245, 163, 233.8);
+}
+
 .btn-orange {
   text-decoration: none;
   cursor: pointer;
@@ -2824,7 +2944,7 @@ a {
   background-color: #ffa600;
 }
 .btn-orange:hover {
-  background-color: 50%;
+  background-color: rgb(255, 219.4, 153);
 }
 
 .btn-outlined-orange {
@@ -2841,6 +2961,21 @@ a {
   background-color: #ffa600;
 }
 
+.btn-complement-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #ffa600;
+  color: rgb(153, 188.6, 255);
+}
+.btn-complement-orange:hover {
+  color: #ffa600;
+  background-color: rgb(153, 188.6, 255);
+}
+
 .btn-purple {
   text-decoration: none;
   cursor: pointer;
@@ -2851,7 +2986,7 @@ a {
   background-color: #9900ff;
 }
 .btn-purple:hover {
-  background-color: 50%;
+  background-color: rgb(214.2, 153, 255);
 }
 
 .btn-outlined-purple {
@@ -2868,6 +3003,21 @@ a {
   background-color: #9900ff;
 }
 
+.btn-complement-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #9900ff;
+  color: rgb(193.8, 255, 153);
+}
+.btn-complement-purple:hover {
+  color: #9900ff;
+  background-color: rgb(193.8, 255, 153);
+}
+
 .btn-gray {
   text-decoration: none;
   cursor: pointer;
@@ -2878,7 +3028,7 @@ a {
   background-color: #808080;
 }
 .btn-gray:hover {
-  background-color: 50.1960784314%;
+  background-color: #cccccc;
 }
 
 .btn-outlined-gray {
@@ -2895,6 +3045,21 @@ a {
   background-color: #808080;
 }
 
+.btn-complement-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #808080;
+  color: #cccccc;
+}
+.btn-complement-gray:hover {
+  color: #808080;
+  background-color: #cccccc;
+}
+
 .btn-black {
   text-decoration: none;
   cursor: pointer;
@@ -2905,7 +3070,7 @@ a {
   background-color: black;
 }
 .btn-black:hover {
-  background-color: 0%;
+  background-color: #cccccc;
 }
 
 .btn-outlined-black {
@@ -2922,6 +3087,21 @@ a {
   background-color: black;
 }
 
+.btn-complement-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: black;
+  color: #cccccc;
+}
+.btn-complement-black:hover {
+  color: black;
+  background-color: #cccccc;
+}
+
 .btn-white {
   text-decoration: none;
   cursor: pointer;
@@ -2932,7 +3112,7 @@ a {
   background-color: white;
 }
 .btn-white:hover {
-  background-color: 100%;
+  background-color: #cccccc;
 }
 
 .btn-outlined-white {
@@ -2947,4 +3127,19 @@ a {
 }
 .btn-outlined-white:hover {
   background-color: white;
+}
+
+.btn-complement-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+  color: #cccccc;
+}
+.btn-complement-white:hover {
+  color: white;
+  background-color: #cccccc;
 }
